@@ -1,0 +1,92 @@
+/* CSS 작성 */
+
+.DiscoveryHeadline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 366px;
+  height: 28px;
+  left: 0px;
+  top: 8px;
+}
+
+.Discoveryitem {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  align-content: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.divider {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: -0.15em;
+  padding-left: 2px;
+  padding-right: 10px;
+  color: var(--color-gray-600);
+}
+
+div.CardLinkColumn1 {
+  width: 243px;
+  height: 310px;
+  border: solid 1px var(--color-gray-600);
+  background-color: var(--color-white-600);
+}
+
+div.CardLinkColumn1:hover,
+div.CardLinkColumn2:hover {
+  border: solid 1px var(--color-blue-600);
+}
+
+div.CardLinkColumn1:hover .ArrowButton,
+div.CardLinkColumn2:hover .ArrowButton {
+  width: 112px;
+  height: 42px;
+  background-color: var(--color-blue-600);
+}
+
+div.CardLinkColumn1:hover .ArrowButton::before,
+div.CardLinkColumn2:hover .ArrowButton::before {
+  padding-right: 20px;
+  content: "구매하기";
+}
+
+div.CardLinkColumn2 {
+  grid-column: span 2;
+  width: 502px;
+  height: 310px;
+  border: solid 1px var(--color-gray-600);
+  background-color: var(--color-white-600);
+}
+
+img.image1 {
+  margin: 14px 22px 14px 21px;
+  width: 200px;
+  height: 282px;
+}
+
+img.image2 {
+  margin: 28px 20px 28px 20px;
+  width: 446px;
+  height: 270px;
+}
+
+.ArrowButton {
+  position: relative;
+  left: 20px;
+  bottom: 80px;
+  width: 42px;
+  height: 42px;
+  border-width: 0px;
+  background-color: var(--color-gray-600);
+  color: var(--color-white-600);
+  transition: background 0.5s;
+}

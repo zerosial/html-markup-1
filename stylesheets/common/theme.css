@@ -1,0 +1,18 @@
+/* Theme 스타일 작성 */
+
+:root {
+  --color-blue-600: #0096e4;
+  --color-red-600: #e52330;
+  --color-yellow-600: #c7cd1d;
+  --color-black-600: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    #181818;
+  --color-gray-600: #c4c4c4;
+  --color-white-600: #ffffff;
+
+  --base-size: 10px;
+  --font-family: "Noto Sans KR", sans-serif;
+}
